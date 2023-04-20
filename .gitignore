@@ -1,0 +1,4 @@
+# Files to be ignored when committing changes
+
+# Misc.
+**/.DS_Store
