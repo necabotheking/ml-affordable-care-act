@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ml-affordable-care-act"
+version = "0.1.0"
+description = ""
+authors = ["rohitkandala <111527275+rohitkandala@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ml_affordable_care_act"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.3"
+nltk = "^3.8.1"
+numpy = "^1.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
