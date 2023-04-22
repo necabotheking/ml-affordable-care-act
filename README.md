@@ -12,5 +12,5 @@ Public policy analysts often encounter classification tasks in which there is a 
  - [Twitter Dataset](https://developer.twitter.com/en/docs/twitter-api)
  
  ## Poetry Commands 
-- `make format`: Formats the python files within the project using the Python formatter [Black](https://github.com/psf/black) and [isort](https://pycqa.github.io/isort/)
+- `make pretty`: Formats the python files within the project using the Python formatter [Black](https://github.com/psf/black) and [isort](https://pycqa.github.io/isort/)
 - `make lint`: Runs [pytlint](https://pypi.org/project/pylint/) on the codebase, to provide static code analysis score.
