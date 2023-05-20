@@ -2,8 +2,8 @@ BASEDIR=./ml-affordable-care-act
 
 .PHONY: pretty
 pretty:
-	black ${BASEDIR}/data-wrangling/	${BASEDIR}/test/	${BASEDIR}/visualization/
+	black ${BASEDIR}/data-wrangling/	${BASEDIR}/initial_analysis/	${BASEDIR}/visualization/	${BASEDIR}/model_parameter_testing/
 
 .PHONY: lint
 lint:
-	pylint  ${BASEDIR}/data-wrangling/	${BASEDIR}/test/	${BASEDIR}/visualization/
+	pylint  ${BASEDIR}/data-wrangling/	${BASEDIR}/initial_analysis/	${BASEDIR}/visualization/	${BASEDIR}/model_parameter_testing/
