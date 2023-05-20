@@ -1,6 +1,6 @@
 # Understanding Public Perceptions of the ObamaCare Program: A Sentiment Analysis Approach Utilizing Open-Source Data
 
-Capstone project for the CAPP 30254 – Machine Learning for Public Policy course where a sentiment analysis of the Affordable Care Act is conducted to analyze public perceptions.
+A Capstone project for the CAPP 30254 – Machine Learning for Public Policy course where a sentiment analysis of the Affordable Care Act was conducted to analyze public perceptions with five different models: Random Forest, SVM, Logistic Regression, XGBoost, and a Neural Network.
 
 ## Project Abstract
 
@@ -12,5 +12,4 @@ Public policy analysts often encounter classification tasks in which there is a 
  - [Twitter Dataset](https://developer.twitter.com/en/docs/twitter-api)
  
  ## Poetry Commands 
-- `make pretty`: Formats the python files within the project using the Python formatter [Black](https://github.com/psf/black) and [isort](https://pycqa.github.io/isort/)
-- `make lint`: Runs [pytlint](https://pypi.org/project/pylint/) on the codebase, to provide static code analysis score.
+- `make pretty`: Formats the python files within the project using the Python formatter [Black](https://github.com/psf/black).
